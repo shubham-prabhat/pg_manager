@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "creation": "2024-01-13 22:10:55.334976",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "room",
+  "room_no",
+  "floor_no",
+  "room_type",
+  "room_rent",
+  "room_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Title",
+   "read_only": 1
+  },
+  {
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Room",
+   "options": "Room",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "room_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Room No.",
+   "read_only": 1
+  },
+  {
+   "fieldname": "floor_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Floor No.",
+   "read_only": 1
+  },
+  {
+   "fieldname": "room_rent",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Room Rent",
+   "non_negative": 1,
+   "precision": "0",
+   "read_only": 1
+  },
+  {
+   "fieldname": "room_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Room Type",
+   "read_only": 1
+  },
+  {
+   "fieldname": "room_status",
+   "fieldtype": "Data",
+   "label": "Room Status",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-18 16:14:40.942012",
+ "modified_by": "Administrator",
+ "module": "PG Manager",
+ "name": "Room Booking Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
